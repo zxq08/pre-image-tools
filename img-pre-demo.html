@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="./img-pre.css">
+</head>
+<body>
+		<div id="pre-img-wrap" style="width: 80%;height: 400px;margin: 0 auto;">
+			<img style="width:20%;" class="pre-img-showImg" src="images/back-icon.png" />
+			<img style="width:20%;" class="pre-img-showImg" src="images/img-error.png" />
+			<img style="width:20%;" class="pre-img-showImg" src="images/avatar-error.png" />
+		</div>
+		
+	</div>
+	</div>
+	<script src="./swiper/jquery/jquery.min.js"></script>
+	<script src="./swiper/js/swiper.min.js"></script>
+	<script src="./img-pre.js"></script>
+	<script>
+		window.onload = function () {
+			$("#pre-img-wrap").PreImg({
+				obj: $("#pre-img-wrap"),
+				imgArr: [
+					'./images/back-icon.png',
+					'./images/img-error.png',
+					'./images/avatar-error.png'
+				]
+			})
+		}
+	</script>
+</body>
+</html>
