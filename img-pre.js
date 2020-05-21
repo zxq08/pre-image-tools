@@ -14,7 +14,7 @@
                     "list1": this.imgArr
                 };
             } else {
-                alert("图片不正确");
+                console.log("图片不正确");
             }  
             var thumb = $('<div style="display:none" id="thumb" class="thumb" thumblist="list1"></div>');
             for (var i in this.imgArr) {
