@@ -42,7 +42,7 @@
                   }
                 }
             })
-            this.wrap.children('.pre-img-showImg').click(function () {
+            this.wrap.find('.pre-img-showImg').click(function () {
                 clickIndex = $(this).index()
                 imglist = $("#thumb").attr('thumblist')
                 imgs = imgsdata[imglist]
